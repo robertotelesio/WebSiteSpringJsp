@@ -1,3 +1,16 @@
-<H1>Ciao</H1>
-<h7>${Info.getName()}</h7>
-<h7>${Info.getDescription()}</h7>
+<!doctype html>
+<html lang="en">
+<jsp:include page="head.jsp"></jsp:include>
+<body>
+<jsp:include page="navbar.jsp"></jsp:include>
+<div class="container">
+    <code class="small">${Info.getName()}</code>
+    <p class="lead">${Info.getDescription()}</p>
+</div>
+<footer class="footer mt-auto py-3 bg-light">
+    <div class="container">
+        <span class="text-muted">Hello world</span>
+    </div>
+</footer>
+</body>
+<jsp:include page="scriptJS.jsp"></jsp:include>
